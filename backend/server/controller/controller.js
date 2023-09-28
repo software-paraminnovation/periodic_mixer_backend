@@ -23,7 +23,7 @@ exports.openAI = async (ASK) => {
       messages.push({ role: "assistant", content: completion_text });
     }
 
-    messages.push({ role: "user", content: `As chemicals expert, perform a chemical reaction to create 3 compounds out of the given list of elements in the input.  If there is no compound possible with the given input list of elements, either replace or remove any one element and perform the reaction to get compounds. and specify any 3 applications of each of the compounds. Return the output only in the format below:
+    messages.push({ role: "user", content: `As chemicals expert, perform a chemical reaction to create 3 compounds out of the given list of elements in the input.  If there is no compound possible with the given input list of elements, either replace or remove any one element and perform the reaction to get compounds. and specify any 3 real world applications (1 sentence each) for each of the compound. Return the output only in the format below:
 
     {"compounds":["compound1","compound2","compound3"],"compound-1": ["application-1", "application-2", "application-3"] , "compound-2": ["application-1", "application-2", "application-3"] , "compound-3": ["application-1", "application-2", "application-3"]}
     
