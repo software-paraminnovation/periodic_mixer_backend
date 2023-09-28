@@ -11,7 +11,7 @@
 	--pixel-border-3: var(--pixel-border);
 	/* ↑ Outer border color */
 	
-	--pixel: .2rem;
+	--pixel: .21rem;
 	/* ↑ Pixel size */
 }
 
@@ -44,8 +44,8 @@
 		0 calc(var(--pixel) * 6) 0 calc(var(--pixel) * -2) var(--pixel-bg),
 		0 calc(var(--pixel) * -9) 0 calc(var(--pixel) * -4) var(--pixel-bg),
 		0 calc(var(--pixel) * 9) 0 calc(var(--pixel) * -4) var(--pixel-bg),
-		0 calc(var(--pixel) * -12) 0 calc(var(--pixel) * -6) var(--pixel-bg),
-		0 calc(var(--pixel) * 12) 0 calc(var(--pixel) * -6) var(--pixel-bg),
+		/* 0 calc(var(--pixel) * -12) 0 calc(var(--pixel) * -6) var(--pixel-bg), */
+		/* 0 calc(var(--pixel) * 12) 0 calc(var(--pixel) * -6) var(--pixel-bg), */
 		
 	/* Pixel Border Layer 1 */
 		/* calc(var(--pixel) * -1) 0 0 0 var(--pixel-border),
@@ -62,8 +62,8 @@
 		0 calc(var(--pixel) * 13) 0 calc(var(--pixel) * -6) var(--pixel-border), */
 		
 	/* Pixel Border Layer 2 */
-		calc(var(--pixel) * -2) 0 0 0 var(--pixel-border-2),
-		calc(var(--pixel) * 2) 0 0 0 var(--pixel-border-2),
+		 calc(var(--pixel) * -2) 0 0 0 var(--pixel-border-2),
+		calc(var(--pixel) * 2) 0 0 0 var(--pixel-border-2), 
 		0 calc(var(--pixel) * -1) 0 var(--pixel) var(--pixel-border-2), 
 		0 var(--pixel) 0 var(--pixel) var(--pixel-border-2),
 		0 calc(var(--pixel) * -4) 0 0 var(--pixel-border-2),

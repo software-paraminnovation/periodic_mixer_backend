@@ -49,7 +49,7 @@ let Data = {
         {
             "row": 0,
             "col": 17,
-
+             "color":"#8850CB",
             "name": "Helium",
             "appearance": "colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field",
             "atomic_mass": 4.0026022,
@@ -460,6 +460,7 @@ let Data = {
         {
             "row": 1,
             "col": 17,
+            "color":"#8850CB",
             "name": "Neon",
             "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
             "atomic_mass": 20.17976,
@@ -942,6 +943,7 @@ let Data = {
         {
             "row": 2,
             "col": 17,
+            "color":"#8850CB",
             "name": "Argon",
             "appearance": "colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field",
             "atomic_mass": 39.9481,
@@ -4877,6 +4879,8 @@ let Data = {
         {
             "row": 5,
             "col": 17,
+            
+            "color":"#8850CB",
             "name": "Radon",
             "appearance": "colorless gas, occasionally glows green or red in discharge tubes",
             "atomic_mass": 222,
@@ -6520,6 +6524,7 @@ let Data = {
             "row": 6,
             "col": 17,
             "name": "Oganesson",
+             "color":"#8850CB",
             "appearance": null,
             "atomic_mass": 294,
             "boil": 350,

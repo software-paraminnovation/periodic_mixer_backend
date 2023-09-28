@@ -6,8 +6,7 @@ export default function Display() {
     
     const { value, setValue } = useCustomContext();
 
-    // console.log(value,"color")
-    // console.log(value, "value inside Display")
+
     function Mix_function() {
        
 
@@ -46,7 +45,7 @@ export default function Display() {
         }));
       }
 
-    console.log(value.query,'value query')
+   
     return (
         <div className='display_box'>
             <div className='display_box_inner'>

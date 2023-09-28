@@ -9,13 +9,12 @@ import { useCustomContext } from '../../Context/Context';
 export default function Periodic_table() {
 
   const {value,setValue}= useCustomContext();
-  // console.log(value,"inse periodic")
-  // console.log(Data.elements)
+
   const numRows = 9;
   const numCols = 18;
 
   const handleElementClick = (symbol,color) => {
-    // console.log(color)
+   
     // Ensure that value.query stores only up to four elements
     if(value.query.length==0){
       
@@ -53,9 +52,9 @@ export default function Periodic_table() {
         colors:[...prevValue.colors,color]
       }));
     }
-    // console.log(symbol,"lenght")
+  
   };
-console.log(value.colors,"value coor")
+
   // Generate grid elements dynamically
   const generateGrid = () => {
     const gridElements = [];
@@ -75,7 +74,15 @@ console.log(value.colors,"value coor")
         const gridItem = (
           <div key={key} className="grid-item">
             {matchedElement ? (
-              <div className='chem_element'  style={{ backgroundColor: `${matchedElement.color}` }}  onClick={() => handleElementClick(matchedElement.symbol,matchedElement.color)}>
+              <div className='chem_element'   style={{
+                backgroundColor: `${matchedElement.color}`,
+                opacity: ["He", "Ne", "Ar", "Rn", "Og"].includes(matchedElement.symbol) ? 0.7 : 1,
+              }}   onClick={() => {
+                // Check if the matchedElement is one of the disabled elements
+                if (!["He", "Ne", "Ar", "Rn", "Og"].includes(matchedElement.symbol)) {
+                  handleElementClick(matchedElement.symbol, matchedElement.color);
+                }
+              }}>
            
                 <p className='right_align'> {matchedElement.number} </p>
                 <p className='symbol'>{matchedElement.symbol}</p>
