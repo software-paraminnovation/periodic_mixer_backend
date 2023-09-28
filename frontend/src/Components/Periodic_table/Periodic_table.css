@@ -1,0 +1,78 @@
+.grid {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr); /* 18 columns */
+    grid-template-rows: repeat(9, 1fr); /* 9 rows */
+     /* Adjust the gap between grid items */
+    width: 100%; /* Full width */
+     /* Full viewport height */
+}
+
+/* Style individual grid items (placeholders) */
+.grid-item {
+    background-color:  #969696; /* Example background color */
+    border: 2px solid #1E1E1E;
+    /* border-bottom: 0px;
+    border-right:0px; */
+    text-align: center; /* Center content */
+    /* padding: 20px;
+    font-size: 18px;  */
+    color: #fff; /* Text color */
+    /* font-size: 5px; */
+    font-weight: bolder;
+    aspect-ratio: 1; /* Square aspect ratio */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    cursor: pointer;
+    caret-color: transparent;
+}
+
+.element_box{
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+p{
+    padding: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.chem_element{
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid white;
+   
+}
+
+.symbol{
+    font:normal normal normal 14px/28px VT323;
+}
+
+.element_name{
+    font: normal normal normal 8px/10px VT323;
+
+}
+
+.right_align{
+    text-align: right;
+    font: normal normal normal 9px/11px VT32
+
+}
+
+@media (max-width: 768px) {
+    .grid-item {
+        font-size: 2px; /* Adjust font size for smaller screens */
+    }
+
+    .symbol{
+        font:normal normal normal 10px/10px VT323;
+    }
+    
+    .element_name{
+        font: normal normal normal 4px/7px VT323;
+    
+    }
+}

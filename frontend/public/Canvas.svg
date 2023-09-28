@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1301" height="1366" viewBox="0 0 1301 1366">
+  <g id="Canvas" transform="translate(-199.79 -734)">
+    <path id="Path_221" data-name="Path 221" d="M0,0H1281V1346H0Z" transform="translate(209.79 744)" fill="#c6c6c6"/>
+    <rect id="Rectangle_1855" data-name="Rectangle 1855" width="10" height="10" transform="translate(209.79 744)"/>
+    <rect id="Rectangle_1856" data-name="Rectangle 1856" width="650" height="10" transform="translate(219.79 734)"/>
+    <rect id="Rectangle_1857" data-name="Rectangle 1857" width="665" height="10" transform="translate(209.79 754) rotate(90)"/>
+    <rect id="Rectangle_1858" data-name="Rectangle 1858" width="10" height="10" transform="translate(1480.79 744)"/>
+    <rect id="Rectangle_1859" data-name="Rectangle 1859" width="650" height="10" transform="translate(830.79 734)"/>
+    <rect id="Rectangle_1860" data-name="Rectangle 1860" width="665" height="10" transform="translate(1500.79 754) rotate(90)"/>
+    <rect id="Rectangle_1861" data-name="Rectangle 1861" width="10" height="10" transform="translate(209.79 2080)"/>
+    <rect id="Rectangle_1862" data-name="Rectangle 1862" width="631" height="10" transform="translate(219.79 2090)"/>
+    <rect id="Rectangle_1863" data-name="Rectangle 1863" width="665" height="10" transform="translate(199.79 2080) rotate(-90)"/>
+    <rect id="Rectangle_1864" data-name="Rectangle 1864" width="10" height="10" transform="translate(1480.79 2080)"/>
+    <rect id="Rectangle_1865" data-name="Rectangle 1865" width="650" height="10" transform="translate(830.79 2090)"/>
+    <rect id="Rectangle_1866" data-name="Rectangle 1866" width="665" height="10" transform="translate(1490.79 2080) rotate(-90)"/>
+    <rect id="Rectangle_1868" data-name="Rectangle 1868" width="1326" height="10" transform="translate(219.79 754) rotate(90)" fill="#fff"/>
+    <rect id="Rectangle_1869" data-name="Rectangle 1869" width="1261" height="10" transform="translate(219.79 744)" fill="#fff"/>
+    <rect id="Rectangle_1870" data-name="Rectangle 1870" width="10" height="10" transform="translate(219.79 753)" fill="#fff"/>
+    <rect id="Rectangle_1871" data-name="Rectangle 1871" width="1326" height="10" transform="translate(1480.79 2080) rotate(-90)" fill="#494949" opacity="0.5"/>
+    <rect id="Rectangle_1872" data-name="Rectangle 1872" width="1261" height="10" transform="translate(219.79 2080)" fill="#494949" opacity="0.5"/>
+  </g>
+</svg>

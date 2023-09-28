@@ -1,0 +1,10 @@
+.Chemmixer {
+    text-align: center;
+    background-color: green;
+    min-width: 1080px;
+    min-height: 2048px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    caret-color: transparent;
+  }
