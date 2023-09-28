@@ -35,7 +35,7 @@ export default function Display() {
 
     function removeColor(index) {
         const newColors = value.colors.filter((_, i) => i !== index);
-        const query=[...value.query];
+   
         const newQuery = value.query.filter((_, i) => i !== index);
          // Set the color to an empty string to remove it
         setValue((prevValue) => ({

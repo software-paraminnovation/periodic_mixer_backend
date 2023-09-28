@@ -16,7 +16,7 @@ export default function Periodic_table() {
   const handleElementClick = (symbol,color) => {
    
     // Ensure that value.query stores only up to four elements
-    if(value.query.length==0){
+    if(value.query.length===0){
       
       setValue((prevValue) => ({
         ...prevValue,
@@ -28,7 +28,7 @@ export default function Periodic_table() {
     }
     else if(value.query.length < 3 && value.query.length>0) {
       // Add the symbol to the value.query array
-      if(value.query.length==1){
+      if(value.query.length===1){
         setValue((prevValue) => ({
           ...prevValue,
           query: [...prevValue.query, symbol],
@@ -44,7 +44,7 @@ export default function Periodic_table() {
         }));
       }
     
-    }else if(value.query.length==3){
+    }else if(value.query.length===3){
       setValue((prevValue) => ({
         ...prevValue,
         query: [...prevValue.query, symbol],

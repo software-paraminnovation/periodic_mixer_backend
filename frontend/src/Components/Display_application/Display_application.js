@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import './Display_application.css';
 import { useState } from 'react';
 import { useCustomContext } from '../../Context/Context';
-import CancelIcon from '../../images/Cancel_Icon.svg';
+
 
 export default function Display_application() {
   const { value, setValue } = useCustomContext();
@@ -12,7 +12,7 @@ export default function Display_application() {
   const initial_display = ["Compound1", "Compound2", "Compound3"];
 
   // Destructure value object
-  const { generated_answer, flag } = value;
+  const { generated_answer } = value;
 
 
 
@@ -43,7 +43,7 @@ export default function Display_application() {
 
   const paragraphs = value.application_display.map((content, index) => (
     <>
-      {content=="*Uncover compound applications from element mixing!*"? (<div key={index} className='display_initial_content'><p key={index}>{content}</p></div>):content=="***Processing data***"? (<div key={index} className='display_initial_content'><p key={index}>{content}</p></div>):<li key={index}>{content}</li>}
+      {content==="*Uncover compound applications from element mixing!*"? (<div key={index} className='display_initial_content'><p key={index}>{content}</p></div>):content==="***Processing data***"? (<div key={index} className='display_initial_content'><p key={index}>{content}</p></div>):<li key={index}>{content}</li>}
     </>
    
   ));
