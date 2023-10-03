@@ -17,6 +17,8 @@ export default function Display_application() {
 
 
   const keys = Object.keys(generated_answer);
+  let required_ans = generated_answer?.compounds;
+  
   const values = Object.values(generated_answer);
   
    
@@ -58,7 +60,8 @@ export default function Display_application() {
       }`}
       onClick={() => setApplicationDisplay(values[index+1], index)}
     >
-      {keys[index+1] ? keys[index+1] : compoundLabel}
+    
+      {required_ans? required_ans[index] : compoundLabel}
     </div>
   ));
    
